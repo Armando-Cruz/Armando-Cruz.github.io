@@ -61,6 +61,19 @@ main {
     max-width: 80rem;
     margin: 0 auto;
 }
+/* Boton */
+.boton {
+    background-color: var(--color-primario);
+    color: var(--color-claro);
+    display: block;
+    font-size: 1.8rem;
+    padding: 1rem 2rem ;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.boton:hover {
+    background-color: #096dc0;
+}
 /* Header */
 .site-header {
     background-color: var(--color-primario);
@@ -159,6 +172,7 @@ main {
         justify-content: space-between;
     }
     .proyecto {
+        border-bottom: none;
         flex: 0 0 calc(33.3% - 1rem);
     }
     .proyecto p {
